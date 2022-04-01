@@ -3,7 +3,7 @@ from matplotlib import pyplot
 import seaborn as sb
 
 print('In this session we will use pandas,matplotlib and seaborn to visualize data about corona virus cases and deaths.')
-print('Data collected fromthe website https://www.ecdc.europa.eu/en/covid-19/data is CSV.')
+print('Data collected from the website https://www.ecdc.europa.eu/en/covid-19/data in CSV.')
 
 # import data and print some of them
 data= read_csv('covid19_data.csv', header= 0,index_col= 0, parse_dates= True, squeeze= True)
